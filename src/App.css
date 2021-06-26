@@ -1,38 +1,98 @@
 .App {
   text-align: center;
+  background-color: #343a40;
+  width: 80%;
+  margin: 5% auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  color: white;
+  font-size: 30px;
+  padding: 2%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time {
+  background-color: #6d6e70;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 0.7% 10%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.maindiv {
+  background-color: whitesmoke;
+}
+.qstn {
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  margin: 3% auto;
+  text-align: justify;
+  padding: 1.5%;
+  box-shadow: gainsboro 3px 3px 3px 1px;
+}
+.op {
+  border-radius: 5px;
+  background-color: white;
+  width: 70%;
+  margin: 1% auto;
+  border: none;
+  text-align: justify;
+  padding: 1%;
+  box-shadow: gainsboro 1px 2px 2px 2px;
+}
+.bigbtn {
+  width: 100%;
+  margin: 10px;
+  visibility: hidden;
+  /* visibility: visible; */
+}
+.btnsdiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fotr {
+  background-color: #343a40;
+  color: honeydew;
+  font-size: 11px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fotr p {
+  padding: 0px;
+  margin: 0px;
+  margin: 0 auto;
+  /* margin-left: 5%; */
+  color: rgb(190, 189, 189);
+}
+.scorechart {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.finalresult {
+  width: 90%;
+  height: 102%;
+  background-color: white;
+  z-index: -1;
+  position: absolute;
+  top: 30px;
+  padding: 60px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% auto;
+}
+.one {
+  font-size: 80px;
+  color: green;
+}
+.two {
+  font-size: 80px;
+  color: red;
 }
